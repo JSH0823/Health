@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Diet Manager</string>
+    <string name="app_name2">정보 입력</string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="back"><![CDATA[<-]]></string>
+
+</resources>

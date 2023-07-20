@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/First.iml" filepath="$PROJECT_DIR$/.idea/modules/First.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPAndroidChart/First.MPAndroidChart.iml" filepath="$PROJECT_DIR$/.idea/modules/MPAndroidChart/First.MPAndroidChart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/First.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/First.app.iml" />
+    </modules>
+  </component>
+</project>

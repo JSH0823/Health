@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="고구마"
+                    android:textColor="#009688"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioGroup
+                    android:id="@+id/group_sweet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/little1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="10dp"
+                        android:text="적게"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    <RadioButton
+                        android:id="@+id/middle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="보통"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    <RadioButton
+                        android:id="@+id/much1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="많이"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="닭가슴살"
+                    android:textColor="#009688"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioGroup
+                    android:id="@+id/group_chick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/little2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="적게"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/middle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="보통"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/much2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="많이"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:text="사과"
+                    android:textColor="#009688"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioGroup
+                    android:id="@+id/group_apple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/little3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="적게"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/middle3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="보통"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/much3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="5dp"
+                        android:text="많이"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="현미밥"
+                    android:textColor="#009688"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioGroup
+                    android:id="@+id/group_rice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/little4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="적게"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/middle4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="보통"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/much4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="5dp"
+                        android:text="많이"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/e"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.3"
+                        android:minHeight="48dp"
+                        android:text="기타 :"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+                    <EditText
+                        android:id="@+id/pip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textColor="#FF64C3A8"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/eat_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.4"
+                        android:background="#FF64C3A8"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="click_set"
+                        android:text="설정"
+                        android:textColor="#004D40"
+                        android:textColorHighlight="#FF64C3A8"
+                        android:textColorLink="#FF64C3A8"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/group_etc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/little5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="적게"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/middle5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="보통"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/much5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="5dp"
+                        android:text="많이"
+                        android:textColor="#009688"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

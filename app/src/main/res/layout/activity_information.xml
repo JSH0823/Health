@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information">
+
+    <LinearLayout
+        android:id="@+id/infor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="이름 : "
+                android:textColor="#FF64C3A8"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:text="이름 :" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:ems="10"
+                android:hint="이름을 입력하세요"
+                android:inputType="text"
+                android:tag="name"
+                android:textColorHint="#FF64C3A8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:privateImeOptions="defaultInputmode=korean"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="키 :"
+                android:textColor="#FF64C3A8"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:text="키 :" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:ems="10"
+                android:hint="키를 입력하세요"
+                android:inputType="numberDecimal"
+                android:tag="height"
+                android:textColorHint="#FF64C3A8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="몸무게 : "
+                android:textColor="#FF64C3A8"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:text="몸무게 :" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:ems="10"
+                android:hint="몸무게를 입력하세요"
+                android:inputType="numberDecimal"
+                android:tag="weight"
+                android:textColorHint="#FF64C3A8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="목표체중 : "
+                android:textColor="#FF64C3A8"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:text="목표체중 :" />
+
+            <EditText
+                android:id="@+id/targetWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:clickable="false"
+                android:ems="10"
+                android:hint="몸무게를 입력하세요"
+                android:inputType="numberDecimal"
+                android:tag="targetWeight"
+                android:textColorHint="#FF64C3A8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                    <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_weight="0.6"
+                         android:gravity="center"
+                         android:text="기상시간 : "
+                         android:textColor="#FF64C3A8"
+                         android:textSize="25sp"
+                         android:textStyle="bold"
+                    tools:text="기상시간 :" />
+
+                <TimePicker
+                    android:id="@+id/timePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="spinner"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="완료"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

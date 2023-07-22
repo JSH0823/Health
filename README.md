@@ -1,7 +1,7 @@
 # health_care_app
 Health Care Application
 
-##협업자
+# 협업자
 > hanmin0512
 
 ## 사용한 라이브러리

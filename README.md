@@ -2,7 +2,7 @@
 Health Care Application
 
 # 협업자
-> hanmin0512
+> <a href="https://github.com/hanmin0512">hanmin0512</a>
 
 ## 사용한 라이브러리
 -  Push Alarm
